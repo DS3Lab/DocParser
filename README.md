@@ -1,5 +1,5 @@
 # DocParser
-## Codes for the system presented in [DocParser: Hierarchical Structure Parsing of Document Renderings](https://arxiv.org/pdf/1911.01702.pdf)
+## Codes for the system presented in [DocParser: Hierarchical Structure Parsing of Document Renderings](docparser.pdf)
 
 TBA
 
