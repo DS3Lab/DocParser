@@ -15,6 +15,7 @@ TBA
 | DocParser Baselie | 0.8443 | 0.8209 |
 | DocParser WS      | 0.8117 | 0.8056 |
 | DocParser WS+FT   | 0.9292 | 0.9292 |
+
 (PDF-based system F1: 0.9221)
 
 
