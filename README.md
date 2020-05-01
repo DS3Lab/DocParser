@@ -8,7 +8,8 @@ TBA
 
 ### Evaluations
 
-#### Updated results on ICDAR 2013, Table Structure Recognition
+#### ICDAR 2013, Table Structure Recognition
+Updated Results. We corrected a read-out error on the outputs of the provided evaluation script for documents with multiple tables.
 
 | System            | F1*    | F1     |
 |-------------------|--------|--------|
