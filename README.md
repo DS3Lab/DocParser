@@ -41,6 +41,7 @@ To setup via Anaconda, please follow these steps:
 
 8. Prepare the trained models:
 	- Download from URL:
+    https://drive.google.com/file/d/1Hi4-tg4Zmtx8zYiCg6IBi47R88PdmAW4/view?usp=sharing
 	- Extract the pretrained models to the `default_models` subdirectory in `DocParser/docparser/`
 		- (resulting in structure `DocParser/docparser/default_models/`).
     - For convenience, we include the COCO pre-trained weights from from https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5 in the zip file
