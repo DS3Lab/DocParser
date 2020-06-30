@@ -28,7 +28,7 @@ To setup via Anaconda, please follow these steps:
     - We used a slightly modified version of https://github.com/matterport/Mask_RCNN, though the original version should still be usable, possibly with minor adaptions.
     - Clone repository from https://github.com/j-rausch/Mask_RCNN 
 	- Change into mask rcnn directory 
-	- type `python setup.py develop`
+	- type `python setup.py install`
 
 6. Install docparser:
 	- Change into DocParser directory 
@@ -82,6 +82,7 @@ Updated Results. We corrected a read-out error on the outputs of the provided ev
 ### Credits
 Parts of our code is based on:
 https://github.com/rafaelpadilla/Object-Detection-Metrics
+
 https://github.com/matterport/Mask_RCNN
 
 ### Reference
