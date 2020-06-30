@@ -1,6 +1,6 @@
 # DocParser: Hierarchical Structure Parsing of Document Renderings
 ## Codes for the system presented in "DocParser: Hierarchical Structure Parsing of Document Renderings"
-[Updated paper](docparser.pdf)
+[paper](docparser.pdf)
 
 
 ### Installation and requirements
@@ -35,13 +35,15 @@ To setup via Anaconda, please follow these steps:
 	- type `python setup.py develop`
 
 7. Prepare the datasets:
-	- Download arxivdocs-target and ICDAR files as shown on https://github.com/DS3Lab/arXivDocs
+	- Download arxivdocs-target from https://github.com/DS3Lab/arXivDocs
+	- To run the ICDAR demo, download the prepared files from:
+    https://drive.google.com/file/d/1SdGTq80eUGqUJBA6kdVQBO9L6a_ijAcN/view?usp=sharing
 	- Extract datasets to the `DocParser` subdirectory 
 		- (resulting in structure: `DocParser/datasets`). 
 
 8. Prepare the trained models:
 	- Download from URL:
-    https://drive.google.com/file/d/1Hi4-tg4Zmtx8zYiCg6IBi47R88PdmAW4/view?usp=sharing
+    https://drive.google.com/file/d/1Hi4-tg4Zmtx8zYiCg6IBi47R88PdmAW4/view?usp=sharing 
 	- Extract the pretrained models to the `default_models` subdirectory in `DocParser/docparser/`
 		- (resulting in structure `DocParser/docparser/default_models/`).
     - For convenience, we include the COCO pre-trained weights from from https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5 in the zip file
@@ -63,6 +65,9 @@ To setup via Anaconda, please follow these steps:
 
 ### Evaluations
 
+#### arXivDocs
+The results of our current system on arXivDocs-target is likely to perform better than the one evaluated in the last version of the paper, mostly due to further improvements to postprocessing.  
+
 #### ICDAR 2013, Table Structure Recognition
 Updated Results. We corrected a read-out error on the outputs of the provided evaluation script for documents with multiple tables.
 
@@ -74,6 +79,10 @@ Updated Results. We corrected a read-out error on the outputs of the provided ev
 
 (PDF-based system F1: 0.9221)
 
+### Credits
+Parts of our code is based on:
+https://github.com/rafaelpadilla/Object-Detection-Metrics
+https://github.com/matterport/Mask_RCNN
 
 ### Reference
 Rausch, J., Martinez, O., Bissig, F., Zhang, C., & Feuerriegel, S. (2019). DocParser: Hierarchical Structure Parsing of Document Renderings. http://arxiv.org/abs/1911.01702
