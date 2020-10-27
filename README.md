@@ -60,7 +60,7 @@ To setup via Anaconda, please follow these steps:
 	- `--page`
 	- `--table`
 	- `--icdar`
-	- e.g. `python demos/demo_inferencey.py --page --table`
+	- e.g. `python demos/demo_inference.py --page --table`
 
 
 ### Evaluations
