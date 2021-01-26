@@ -1,6 +1,6 @@
 # DocParser: Hierarchical Structure Parsing of Document Renderings
 ## Codes for the system presented in "DocParser: Hierarchical Structure Parsing of Document Renderings"
-[paper](docparser.pdf)
+[paper](https://arxiv.org/abs/1911.01702)
 
 
 ### Installation and requirements
@@ -86,7 +86,7 @@ https://github.com/rafaelpadilla/Object-Detection-Metrics
 https://github.com/matterport/Mask_RCNN
 
 ### Reference
-Rausch, J., Martinez, O., Bissig, F., Zhang, C., & Feuerriegel, S. (2019). DocParser: Hierarchical Structure Parsing of Document Renderings. http://arxiv.org/abs/1911.01702
+Rausch, J., Martinez, O., Bissig, F., Zhang, C., & Feuerriegel, S. - 35th AAAI Conference on Artificial Intelligence (AAAI-21)(virtual) 
 
 
 
