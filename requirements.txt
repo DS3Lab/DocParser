@@ -73,7 +73,7 @@ prometheus-client==0.5.0
 prompt-toolkit==2.0.7
 protobuf==3.6.1
 ptyprocess==0.6.0
-py==1.8.0
+py==1.10.0
 pycryptodome==3.8.1
 Pygments==2.3.1
 pyparsing==2.3.0
