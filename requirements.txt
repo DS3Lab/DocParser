@@ -13,7 +13,7 @@ coverage==3.7.1
 coveralls==1.1
 cycler==0.10.0
 Cython==0.29.2
-dask==1.0.0
+dask==2021.10.0
 decorator==4.3.0
 defusedxml==0.5.0
 docopt==0.6.2
