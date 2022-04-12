@@ -35,7 +35,8 @@ To setup via Anaconda, please follow these steps:
 	- type `python setup.py develop`
 
 7. Prepare the datasets:
-	- Download arxivdocs-target from https://github.com/DS3Lab/arXivDocs
+	- Download arxivdocs-target from:
+    https://drive.google.com/file/d/1qVR_mI2xBtgsUG0LWVJctygDzvkMYN7C/view?usp=sharing
 	- To run the ICDAR demo, download the prepared files from:
     https://drive.google.com/file/d/1SdGTq80eUGqUJBA6kdVQBO9L6a_ijAcN/view?usp=sharing
 	- Extract datasets to the `DocParser` subdirectory 
